@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive bottom navigation</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a class="nav__logo" href="">Mostak Khan</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#home">
+                <i class='bx bx-home-alt' ></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#about">
+                <i class='bx bxs-user-rectangle' ></i>
+                <span class="nav__name">About Me</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#skills">
+                <i class='bx bx-book-alt' ></i>
+                <span class="nav__name">Skills</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#portfolio">
+                <i class='bx bx-briefcase-alt-2' ></i>
+                <span class="nav__name">Portfolio</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#contactme">
+                <i class='bx bx-message-alt-dots' ></i>
+                <span class="nav__name">Contact Me</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <img src="https://2.gravatar.com/avatar/477c2f6ea01db60a2d1df8a5e05a43756097c99d3b124b7d69e877581494be8e?size=256" alt="" class="nav__img">
+      </nav>
+    </header>
+
+    <main>
+      <!--=============== HOME ===============-->
+      <section class="container section section__height" id="home"></section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="container section section__height" id="about"></section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="container section section__height" id="skills"></section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section
+        class="container section section__height"
+        id="portfolio"
+      ></section>
+
+      <!--=============== CONTACTME ===============-->
+      <section
+        class="container section section__height"
+        id="contactme"
+      ></section>
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
